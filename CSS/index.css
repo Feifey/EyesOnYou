@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+
+h1 {
+  font-family: "Inter", Arial;
+  font-size: 60pt;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+}
+
+.title {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title h1 {
+  letter-spacing: 0.75px;
+  color: rgb(255, 0, 0);
+}
+
+.subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:rgb(181, 181, 181);
+}
+
+.box-button {
+  display: inline-block;
+  width: 160px; /* Specifies the width of the box */
+  height: 50px; /* Specifies the height of the box */
+  line-height: 50px; /* Centers the text vertically */
+  background-color: #ffffff;
+  color: #919191;
+  text-decoration: none;
+  border: 2px solid #919191; /* Adds a solid border */
+  border-radius: 5px; /* Optional: Rounds the corners of the box */
+  font-size: 16px;
+  text-align: center; /* Centers the text horizontally */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+
+

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+
+h1 {
+  font-family: "Inter", Arial;
+  font-size: 60pt;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+}
+
+.title {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title h1 {
+    letter-spacing: 0.75px;
+    color: rgb(181, 181, 181);
+  }
+
+  .subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 10vh;
+    position: relative;
+    top: 1px;  
+    left: 200px;
+    color:rgb(255, 0, 0);
+    text-decoration: underline;
+  }
+
+  .results {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 5vh;
+    position: relative;
+    top: 10px;  
+    left: 200px;
+    color:rgb(0, 0, 0);
+  }
+
+  #categoryResults {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: solid;
+    border: 20px rgb(181, 181, 181); /* Adjust color as needed */
+    padding: 10px 400px;
+    margin: 0%; /* Adjust margins as needed */
+    background-color: rgb(40, 40, 40); /* Adjust background color as needed */
+    color: rgb(181,181,181); /* Adjust text color as needed */
+    border-radius: 10px; /* Optional: Rounds the corners of the box */
+    text-align: start;
+    line-height: 2.5
+}
+

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+
+h1 {
+  font-family: "Inter", Arial;
+  font-size: 60pt;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+}
+
+.child {
+  position: relative;
+  top: 50%;  
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.instruction {
+  height: 50vh;
+  position: absolute;
+  right: 35%;
+  align-items: center;
+  justify-content: center;
+}
+
+.instruction h4 {
+  letter-spacing: 0.75px;
+  color: rgb(255, 255, 255);
+}
+
+.box-button {
+  position: relative;
+  top: -10px; left: 1200px;
+  width: 100px; /* Specifies the width of the box */
+  height: 50px; /* Specifies the height of the box */
+  line-height: 50px; /* Centers the text vertically */
+  background-color: #ffffff;
+  color: #919191;
+  text-decoration: none;
+  border: 1px solid #919191; /* Adds a solid border */
+  border-radius: 5px; /* Optional: Rounds the corners of the box */
+  font-size: 20px;
+  text-align: center; /* Centers the text horizontally */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#imageToChange {
+  align-items: center;
+  max-width: 110%; /* Adjust based on the container's width */
+  max-height: 100vh; /* Adjust based on the container's height */
+  height: auto; /* Maintain aspect ratio */
+  border: 50px solid #000; /* Frame-like border */
+  padding: 1px; /* Space between the image and its border */
+  background-color: #000000; /* Background color simulating the frame's mat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for depth */
+  display: block; /* Ensures the image is treated as a block-level element */
+  margin: auto; /* Center the image horizontally */
+}
+
